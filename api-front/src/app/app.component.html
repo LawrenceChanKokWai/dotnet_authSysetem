@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+<h1>Hello <span *ngIf="isLogin">{{name}}</span>, Welcome</h1>
+
+<ul *ngFor="let item of ProductList">
+
+  <li>Product Id: {{item.productId}} </li>
+  <li>Product Name: {{item.productName}} </li>
+  <li>Product Price: {{item.price}}</li>
+
+</ul>
